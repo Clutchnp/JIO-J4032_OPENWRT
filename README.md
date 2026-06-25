@@ -20,3 +20,5 @@ you have to run the above commands once flashing is complete to mount overlayfs 
 - I dont take responsibility for anything that might happen to your property while using this, Pls be careful as this may lead to brick ("I only suggest doing this if youare able to get into your router via UART connection, if anything goes south")
 
 
+The mt76 drivers do work but the speeds are very slow, I am currently working on fixing the issue (related to how eeprom is interprted by the openwrt's mt76 driver)
+
